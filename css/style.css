@@ -10,12 +10,12 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f3f3f3;
+    background-color: #f7f7f7;
 }
 
 /* Container da lista de tarefas  */
 .container{
-    background: #fff;
+    background: #fdffff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -37,15 +37,15 @@ h1{
 #atividade{
     flex: 1;
     padding: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 5px;
     font-size: 16px;
 }
 
 #adicionarAtividade{
-    padding: 10px 20px;
+    padding: 5px 10px;
     border: none;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.966);
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
@@ -76,7 +76,7 @@ h1{
 .atividade button{
     background: none;
     border: none;
-    color: #dc3545;
+    color: #356adc;
     cursor: pointer;
     font-size: 16px;
 }
