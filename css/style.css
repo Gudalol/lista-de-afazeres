@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f3f3f3;
+}
+
+/* Container da lista de tarefas  */
+.container{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+}
+
+/* Titulo */
+h1{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Input's e botões */
+.todo-input{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#atividade{
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#adicionarAtividade{
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+#adicionarAtividade:hover{
+    background-color: #218838;
+}
+
+/* Lista de Tarefas */
+#listaAtividades{
+    list-style: none;
+}
+
+.atividade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.atividade:last-child{
+    border-bottom: none;
+}
+
+.atividade button{
+    background: none;
+    border: none;
+    color: #dc3545;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.atividade button:hover{
+    color: #c82333;
+}
