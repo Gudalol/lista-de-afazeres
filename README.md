@@ -1,4 +1,4 @@
-# meu-projeto-1-site
+# lista-de-afazeres
  Este é um simples aplicativo de lista de tarefas (to-do list) que permite adicionar e remover tarefas. É o meu primeiro projeto de desenvolvimento web, focado em HTML, CSS e JavaScript.
 # Tecnologias Utilizadas:
 - HTML
